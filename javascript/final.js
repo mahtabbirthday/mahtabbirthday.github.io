@@ -30,6 +30,8 @@ window.addEventListener("resize", resizeCanvas, false);
             if (!!canvas) {
                 w = canvas.width = window.innerWidth;
                 h = canvas.height = window.innerHeight;
+                h = 2688;
+                w = 1242;
             }
         } 
         
