@@ -1,0 +1,33 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url("../images/b-red.jpg");
+  overflow: hidden;
+  margin: 0;
+}
+
+canvas {
+  background: url("../images/b-red.jpg");
+}
+
+
+.child {
+  position: relative;
+  /* top: 50%;
+  left: 50%;
+  margin-top: -600px;
+  margin-left: -400px;
+  width: 600;
+  height: 450; */
+  z-index: 2;
+}
+
+.parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}

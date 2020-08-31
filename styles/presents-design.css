@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: normal 16px/24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: url("../images/b-red.jpg");
+}
+
+.button {
+  background-color: rgb(86, 182, 241);
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5%;
+  cursor: pointer;
+  border-radius: 8px;
+  min-width: 90%;
+}
+
+
+.home {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background: white;
+  top: 0;
+  left: 0;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.home .home-button {
+  width: 80px;
+  height: 100%;
+  padding: 2px;
+  margin: auto;
+}
+
+.home .home-button img {
+  height: 100%;
+  width: 100%;
+}
+
+.home:hover {
+  background: #FDA034;
+}
+
+.intro {
+  margin-top: 100px;
+  text-align: center;
+  padding: 50px;
+}
+
+.intro h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.intro h3 {
+  margin-top: 30px;
+  color: #8C8B8B;
+}
+
+.wall {
+  width: 96%;
+  border-style: none solid none solid;
+  margin: auto;
+}
+
+.wall .column {
+  padding: 50px;
+  width: 100%;
+  float: left;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.wall .post {
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.wall .post img {
+  width: 100%;
+}
+
+.wall .post p {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  color: #AEAEAE;
+}
+
+.wall .post .post-header {
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.wall .post .post-header img {
+  margin: auto;
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.wall .post .post-header .info {
+  height: 100%;
+  padding-bottom: -5px;
+}
+
+.wall .post .post-header .info h3 {
+  font-size: 14px;
+  color: gray;
+}
+
+.wall .post .post-header .info h1 {
+  font-size: 16px;
+  color: gray;
+  margin-bottom: -7px;
+}
+
+.wall .post .title {
+  height: 50px;
+  width: 100%;
+}
+
+.wall .post .title h1 {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  color: white;
+}
+
+
+
+.wall .post a {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #28B7F7;
+}
+
+.wall .post hr {
+  margin-top: 25px;
+}
+
+hr.faded {
+  border: 0;
+  height: 3px;
+  background-image: -webkit-linear-gradient(left, #515050, #282828, #515050);
+  background-image: -moz-linear-gradient(left, #515050, #282828, #515050);
+  background-image: -ms-linear-gradient(left, #515050, #282828, #515050);
+  background-image: -o-linear-gradient(left, #515050, #282828, #515050);
+}
+
+@media screen and (min-width: 550px) {
+  body .wall .column {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body .wall .column {
+    width: 25%;
+  }
+}
+
+/*# sourceMappingURL=blog-design.css.map */
